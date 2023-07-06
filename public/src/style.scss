@@ -120,7 +120,7 @@
 
     .sidebar {
       flex: 1;
-      background-color: #36336e;
+      background-color: #090736;
       position: relative;
       width: 30%;
 
@@ -207,7 +207,7 @@
         cursor: pointer;
 
         &:hover {
-          background-color: #2f2d52;
+          background-color: #070531;
         }
 
         img {
@@ -236,7 +236,7 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #36336e;
+        background-color: #08063b;
         display: flex;
         font-size: 20px;
         font-weight: bold;
@@ -260,7 +260,7 @@
         background-image: url("./img/backGrnd1.jpg");
         background-size: "cover";
         background-repeat: no-repeat;
-        padding: 10px;
+        padding: 5px;
         height: calc(100% - 160px);
         overflow: scroll;
 
@@ -334,7 +334,7 @@
           font-size: 18px;
 
           &::placeholder {
-            color: lightgray;
+            color: rgb(173, 173, 173);
           }
         }
 
@@ -352,7 +352,8 @@
             border: none;
             padding: 10px 15px;
             color: white;
-            background-color: #8da4f1;
+            border-radius: 10%;
+            background-color: #092274;
             cursor: pointer;
           }
         }
